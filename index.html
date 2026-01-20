@@ -12,64 +12,64 @@
 </head>
 
 <body>
-    
-<div class="bg-[#412567]">
 
-   
-    <input type="checkbox" id="menu" class="hidden peer">
+    <div class="bg-[#412567]">
 
-    
-    <header class="flex items-center justify-between pt-[30px] pb-[30px] px-4 lg:px-0 lg:justify-around text-white">
 
-        <!-- logo -->
-        <div class="text-3xl font-extrabold">
-            <h1>
-                Tech<span
-                    class="bg-gradient-to-t from-[#F7E93F] via-[#FB09B4] to-[#9100F8] bg-clip-text text-transparent">
-                    Wave
-                </span>
-            </h1>
+        <input type="checkbox" id="menu" class="hidden peer">
+
+
+        <header class="flex items-center justify-between pt-[30px] pb-[30px] px-4 lg:px-0 lg:justify-around text-white">
+
+            <!-- logo -->
+            <div class="text-3xl font-extrabold">
+                <h1>
+                    Tech<span
+                        class="bg-gradient-to-t from-[#F7E93F] via-[#FB09B4] to-[#9100F8] bg-clip-text text-transparent">
+                        Wave
+                    </span>
+                </h1>
+            </div>
+
+            <!-- menu icon phone res -->
+            <label for="menu" class="lg:hidden text-2xl cursor-pointer">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+
+
+            <nav class="hidden lg:block">
+                <ul class="flex gap-[30px]">
+                    <li class="text-[1rem] hover:bg-red-600"><a href="">About</a></li>
+                    <li class="text-[1rem] hover:bg-red-600"><a href="">Episods</a></li>
+                    <li class="text-[1rem] hover:bg-red-600"><a href="">Host</a></li>
+                </ul>
+            </nav>
+
+            <!-- subscribe button - desktop only -->
+            <button
+                class="hidden lg:flex items-center gap-1 text-[1rem] font-semibold px-4 py-3 bg-gradient-to-tr from-[#F7E93F] via-[#FB09B4] to-[#9100F8] rounded-3xl transition-all duration-300 hover:scale-125">
+                Subscribe<i class="fa-solid fa-arrow-right"></i>
+            </button>
+
+        </header>
+
+
+        <div class="hidden peer-checked:block lg:hidden bg-[#412567] text-white px-6 pb-6">
+
+            <ul class="flex flex-col gap-4 text-[1rem]">
+                <li><a class="hover:bg-red-500" href="">About</a></li>
+                <li><a class="hover:bg-red-500" href="">Episods</a></li>
+                <li><a class="hover:bg-red-500" href="">Host</a></li>
+            </ul>
+
+            <button
+                class="mt-6 flex items-center gap-1 text-[1rem] font-semibold px-4 py-3 bg-gradient-to-tr from-[#F7E93F] via-[#FB09B4] to-[#9100F8] rounded-3xl transition-all duration-300 hover:scale-125">
+                Subscribe <i class="fa-solid fa-arrow-right"></i>
+            </button>
+
         </div>
 
-        <!-- menu icon phone -->
-        <label for="menu" class="lg:hidden text-2xl cursor-pointer">
-            <i class="fa-solid fa-bars"></i>
-        </label>
-
-        
-        <nav class="hidden lg:block">
-            <ul class="flex gap-[30px]">
-                <li class="text-[1rem] hover:bg-red-600"><a href="">About</a></li>
-                <li class="text-[1rem] hover:bg-red-600"><a href="">Episods</a></li>
-                <li class="text-[1rem] hover:bg-red-600"><a href="">Host</a></li>
-            </ul>
-        </nav>
-
-        <!-- subscribe button (desktop only) -->
-        <button
-            class="hidden lg:flex items-center gap-1 text-[1rem] font-semibold px-4 py-3 bg-gradient-to-tr from-[#F7E93F] via-[#FB09B4] to-[#9100F8] rounded-3xl transition-all duration-300 hover:scale-125">
-            Subscribe<i class="fa-solid fa-arrow-right"></i>
-        </button>
-
-    </header>
-
-    
-    <div class="hidden peer-checked:block lg:hidden bg-[#412567] text-white px-6 pb-6">
-
-        <ul class="flex flex-col gap-4 text-[1rem]">
-            <li><a class="hover:bg-red-500" href="">About</a></li>
-            <li><a class="hover:bg-red-500" href="">Episods</a></li>
-            <li><a class="hover:bg-red-500" href="">Host</a></li>
-        </ul>
-
-        <button
-            class="mt-6 flex items-center gap-1 text-[1rem] font-semibold px-4 py-3 bg-gradient-to-tr from-[#F7E93F] via-[#FB09B4] to-[#9100F8] rounded-3xl transition-all duration-300 hover:scale-125">
-            Subscribe <i class="fa-solid fa-arrow-right"></i>
-        </button>
-
     </div>
-
-</div>
 
 
     <!-- banner section  -->
@@ -82,21 +82,19 @@
                     src="assets/hero-circle.png" alt="">
             </div>
 
-            <div
-    class="absolute z-40 
+            <div class="absolute z-40 
            left-1/2 top-[12%] lg:top-[20%]
            translate-x-[100px] lg:translate-x-[110px]">
 
-    <span
-        class="bg-[#00FF88] text-[#230E3D]
+                <span class="bg-[#00FF88] text-[#230E3D]
                text-xs lg:text-sm
                font-bold px-4 py-1
                rounded-full shadow-lg
                animate-pulse">
-        NEW
-    </span>
+                    NEW
+                </span>
 
-</div>
+            </div>
 
 
             <div>
@@ -119,8 +117,7 @@
             </div>
 
             <!-- button -->
-            <div
-    class="absolute z-30 flex justify-center items-center inset-0 
+            <div class="absolute z-30 flex justify-center items-center inset-0 
            top-[70%] lg:top-[72%] 
            mt-[30px] lg:mt-[40px] 
            gap-4 
@@ -128,25 +125,25 @@
            mx-auto text-center
            ">
 
-    <div
-        class="bg-gradient-to-tr from-[#F7E93F] via-[#FB09B4] to-[#9100F8] 
+                <div
+                    class="bg-gradient-to-tr from-[#F7E93F] via-[#FB09B4] to-[#9100F8] 
                px-6 py-3 rounded-full flex gap-2 items-center justify-center transition-all duration-300 hover:scale-125 hover:105 lg:hover:scale-125 hover:105 hover:bg-amber-300 hover:text-black">
-        <img class="w-5 h-5" src="assets/spotify.png" alt="">
-        <button class="text-[1rem] font-semibold text-white ">
-            Listen on Spotify
-        </button>
-    </div>
+                    <img class="w-5 h-5" src="assets/spotify.png" alt="">
+                    <button class="text-[1rem] font-semibold text-white ">
+                        Listen on Spotify
+                    </button>
+                </div>
 
-    <div
-        class="border border-[#00FF88] px-6 py-3 rounded-full 
+                <div
+                    class="border border-[#00FF88] px-6 py-3 rounded-full 
                flex gap-2 items-center justify-center transition-all duration-300 hover:scale-125 hover:105 lg:hover:scale-125 hover:105">
-        <img class="w-5 h-5" src="assets/message.png" alt="">
-        <button class="text-[#00FF88] font-semibold">
-            Subscribe
-        </button>
-    </div>
+                    <img class="w-5 h-5" src="assets/message.png" alt="">
+                    <button class="text-[#00FF88] font-semibold">
+                        Subscribe
+                    </button>
+                </div>
 
-</div>
+            </div>
         </div>
     </section>
 
@@ -204,54 +201,54 @@
 
     <!-- Why Choose TechWave -->
     <section class="bg-[#230E3D]">
-    <div class="max-w-full px-4 lg:px-0 lg:max-w-[1200px] mx-auto text-center align-middle">
+        <div class="max-w-full px-4 lg:px-0 lg:max-w-[1200px] mx-auto text-center align-middle">
 
-        <div>
-            <h1 class="text-3xl lg:text-5xl font-bold text-[#FFFFFF] pt-[120px]">
-                Why Choose TechWave
-            </h1>
-        </div>
-
-        <div
-            class="mt-5 grid grid-cols-1 lg:grid-cols-3 text-white text-left gap-4 lg:gap-7 pb-[60px] lg:pb-[120px]">
+            <div>
+                <h1 class="text-3xl lg:text-5xl font-bold text-[#FFFFFF] pt-[120px]">
+                    Why Choose TechWave
+                </h1>
+            </div>
 
             <div
-                class="bg-[#351165]/40 col-span-1 row-span-1 lg:row-span-2 rounded-[40px] px-[30px] py-[50px] lg:px-[40px] lg:py-[107px]">
-                <img src="assets/headphone.png" alt="">
-                <h1 class="text-2xl font-bold my-4">Premium Audio Quality</h1>
-                <p class="max-w-[400px] lg:max-w-[300px] leading-6">
-                    Experience crystal-clear sound with professional-grade recording equipment and expert audio
-                    engineering.
-                </p>
-            </div>
+                class="mt-5 grid grid-cols-1 lg:grid-cols-3 text-white text-left gap-4 lg:gap-7 pb-[60px] lg:pb-[120px]">
 
-            <div class="bg-[#351165]/40 col-span-2 rounded-[40px] px-10 py-10">
-                <img src="assets/device.png" alt="">
-                <h1 class="text-2xl font-bold my-4">Mobile Friendly</h1>
-                <p>Listen on the go with seamless mobile experience and offline downloads.</p>
-            </div>
+                <div
+                    class="bg-[#351165]/40 col-span-1 row-span-1 lg:row-span-2 rounded-[40px] px-[30px] py-[50px] lg:px-[40px] lg:py-[107px]">
+                    <img src="assets/headphone.png" alt="">
+                    <h1 class="text-2xl font-bold my-4">Premium Audio Quality</h1>
+                    <p class="max-w-[400px] lg:max-w-[300px] leading-6">
+                        Experience crystal-clear sound with professional-grade recording equipment and expert audio
+                        engineering.
+                    </p>
+                </div>
 
-            <div class="bg-[#351165]/40 col-span-2 rounded-[40px] px-10 py-10">
-                <img src="assets/location.png" alt="">
-                <h1 class="text-2xl font-bold my-4">Global Community</h1>
-                <p>Connect with tech enthusiasts from over 120 countries worldwide.</p>
-            </div>
+                <div class="bg-[#351165]/40 col-span-2 rounded-[40px] px-10 py-10">
+                    <img src="assets/device.png" alt="">
+                    <h1 class="text-2xl font-bold my-4">Mobile Friendly</h1>
+                    <p>Listen on the go with seamless mobile experience and offline downloads.</p>
+                </div>
 
-            <div class="bg-[#351165]/40 col-span-2 rounded-[40px] px-10 py-10">
-                <img src="assets/zap-fast.png" alt="">
-                <h1 class="text-2xl font-bold my-4">Exclusive Interviews</h1>
-                <p>Get unprecedented access to industry titans, startup founders, and tech visionaries.</p>
-            </div>
+                <div class="bg-[#351165]/40 col-span-2 rounded-[40px] px-10 py-10">
+                    <img src="assets/location.png" alt="">
+                    <h1 class="text-2xl font-bold my-4">Global Community</h1>
+                    <p>Connect with tech enthusiasts from over 120 countries worldwide.</p>
+                </div>
 
-            <div class="bg-[#351165]/40 rounded-[40px] px-10 py-10">
-                <img src="assets/resource.png" alt="">
-                <h1 class="text-2xl font-bold my-4">Rich Resources</h1>
-                <p>Access show notes, transcripts, and additional learning materials for every episode.</p>
-            </div>
+                <div class="bg-[#351165]/40 col-span-2 rounded-[40px] px-10 py-10">
+                    <img src="assets/zap-fast.png" alt="">
+                    <h1 class="text-2xl font-bold my-4">Exclusive Interviews</h1>
+                    <p>Get unprecedented access to industry titans, startup founders, and tech visionaries.</p>
+                </div>
 
+                <div class="bg-[#351165]/40 rounded-[40px] px-10 py-10">
+                    <img src="assets/resource.png" alt="">
+                    <h1 class="text-2xl font-bold my-4">Rich Resources</h1>
+                    <p>Access show notes, transcripts, and additional learning materials for every episode.</p>
+                </div>
+
+            </div>
         </div>
-    </div>
-</section>
+    </section>
 
 
     <!-- Featured Episodes -->
@@ -283,8 +280,8 @@
                     </p>
 
                     <div class="flex align-middle items-center gap-1.5">
-                        <img class="pl-6" src="assets/clock.png" alt="">
-                        <h3 class="text-[#00FF88] text-sm lg:text-base">5 min</h3>
+                        <img class="pl-6 pb-[23px] lg:pb-[26px]" src="assets/clock.png" alt="">
+                        <h3 class="text-[#00FF88] text-sm pb-[23px] lg:pb-[27px] lg:text-base">5 min</h3>
                     </div>
                 </div>
 
@@ -303,8 +300,8 @@
                     </p>
 
                     <div class="flex align-middle items-center gap-1.5">
-                        <img class="pl-6 pb-[20px] lg:pb-[26px]" src="assets/clock.png" alt="">
-                        <h3 class="text-[#00FF88] text-sm lg:text-base">6 min</h3>
+                        <img class="pl-6 pb-[23px] lg:pb-[26px]" src="assets/clock.png" alt="">
+                        <h3 class="text-[#00FF88] text-sm pb-[23px] lg:pb-[27px] lg:text-base">6 min</h3>
                     </div>
                 </div>
 
@@ -322,8 +319,8 @@
                     </p>
 
                     <div class="flex align-middle items-center gap-1.5">
-                        <img class="pl-6 pb-[20px] lg:pb-[26px]" src="assets/clock.png" alt="">
-                        <h3 class="text-[#00FF88] text-sm lg:text-base">3:48 min</h3>
+                        <img class="pl-6 pb-[23px] lg:pb-[26px]" src="assets/clock.png" alt="">
+                        <h3 class="text-[#00FF88] text-sm pb-[23px] lg:pb-[27px] lg:text-base">3:48 min</h3>
                     </div>
                 </div>
 
@@ -378,7 +375,7 @@
 
     <!-- footer section  -->
     <footer>
-        <div class="relative w-full bg-center bg-cover bg-[url('assets/footer-bg.png')]">
+        <div style="background-size: 100% 100%;" class="relative w-full bg-center bg-no-repeat bg-[url('assets/footer-bg.png')]">
 
             <div class="max-w-[1360px] mx-auto pt-[80px] pb-[80px] lg:pt-[120px] lg:pb-[120px] px-4">
 
@@ -386,31 +383,31 @@
                     <img src="assets/TechWave.png" alt="TechWave Logo" class="w-[200px] lg:w-auto">
                 </div>
 
-                <div class="grid grid-cols-2 gap-y-6 gap-x-4 mt-10 justify-items-center 
-                  lg:flex 
+                <div class="flex flex-wrap items-center gap-6 mt-10 justify-items-center ml-3.5
+                  
                   lg:flex-row 
                   lg:justify-center 
                   lg:gap-10 
                   lg:mt-12">
 
-                    <div class="flex items-center">
+                    <div class="flex items-center h-[36px] w-[193px] lg:items-center lg:w-auto lg:h-auto">
                         <img class="w-6 h-6" src="assets/spotify.png" alt="Spotify">
-                        <p class="text-[1rem] text-white font-medium ml-2">Spotify</p>
+                        <p class="  text-center text-[1rem] text-white font-medium ml-2">Spotify</p>
                     </div>
 
-                    <div class="flex items-center">
+                    <div class="flex items-center h-[36px] w-[193px] lg:items-center lg:w-auto lg:h-auto">
                         <img class="w-5 h-5" src="assets/apple-podcast.png" alt="Apple">
-                        <p class="text-[1rem] text-white font-medium ml-2 text-nowrap">Apple Podcasts</p>
+                        <p class="text-[1rem] text-center text-white font-medium ml-2 text-nowrap">Apple Podcasts</p>
                     </div>
 
-                    <div class="flex items-center">
+                    <div class="flex items-center h-[36px] w-[193px] h-[36px] lg:items-center lg:w-auto lg:h-auto">
                         <img class="w-5 h-4" src="assets/youtube-podcast.png" alt="YouTube">
-                        <p class="text-[1rem] text-white font-medium ml-2">YouTube</p>
+                        <p class="text-[1rem] text-center text-white font-medium ml-2">YouTube</p>
                     </div>
 
-                    <div class="flex items-center">
+                    <div class="flex items-center w-[193px] h-[36px] lg:items-center lg:w-auto lg:h-auto">
                         <img class="w-5 h-4" src="assets/twitter.png" alt="Twitter">
-                        <p class="text-[1rem] text-white font-medium ml-2">Twitter</p>
+                        <p class="text-[1rem] text-center text-white font-medium ml-2">Twitter</p>
                     </div>
                 </div>
 
